@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "tw.com.lollybank.sit",
+    "sha256_cert_fingerprints":
+    ["3D:A2:87:60:22:B9:80:2E:F6:73:D8:94:D7:C5:29:68:C5:FC:44:B3:21:BF:27:D4:E1:83:D3:69:EB:31:C0:94"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://test.com"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "tw.com.lollybank.sit",
+    "sha256_cert_fingerprints":
+    ["3D:A2:87:60:22:B9:80:2E:F6:73:D8:94:D7:C5:29:68:C5:FC:44:B3:21:BF:27:D4:E1:83:D3:69:EB:31:C0:94"]
+  }
+}]
